@@ -245,10 +245,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">Contactez-moi!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Remplissez juste le formulaire ci-dessous.</p>
+                    
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="form_name">Prénom</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Votre Prénom" required="required">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="form_lastname">Nom</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Votre Nom" required="required">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Votre Email" required="required">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Votre Message" rows="4" required="required"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+                
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>123-456-6789</p>
