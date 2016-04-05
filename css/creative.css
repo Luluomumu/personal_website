@@ -11,17 +11,17 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
     max-width: 50px;
-    border-color: #8aa3d9;
+    border-color: #f05f40;
     border-width: 3px;
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #f05f40;
 }
 
 a {
@@ -61,7 +61,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: #fff;
 }
 
 section {
@@ -380,7 +380,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: #f05f40;
     background-color: #222;
 }
 
